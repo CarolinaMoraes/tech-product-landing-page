@@ -1,0 +1,53 @@
+/* elements -> reset.css */
+
+h1, h2, h3{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3{
+    margin: 5px auto;
+}
+
+p, span, a, button, nav{
+    font-family: 'Nunito', sans-serif;
+}
+
+body, header, footer{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+header *{
+    display: inline;
+}
+
+input, button{
+    border: none;
+}
+
+nav{
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+hr{
+    height: 1px;
+    color: beige;
+}
